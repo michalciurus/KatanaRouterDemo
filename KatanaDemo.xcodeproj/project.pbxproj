@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07DFF50C2A0FDCD130A87B71 /* Pods_KatanaDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C227130878E2D73450B14B /* Pods_KatanaDemoTests.framework */; };
+		3F51AF7E1E59FC0C003316E9 /* FirstTabNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51AF7D1E59FC0C003316E9 /* FirstTabNavigationController.swift */; };
+		3F51AF801E59FC2D003316E9 /* SecondTabNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51AF7F1E59FC2D003316E9 /* SecondTabNavigationController.swift */; };
+		3FE21B601E49035B00451DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21B5F1E49035B00451DFB /* AppDelegate.swift */; };
+		3FE21B671E49035B00451DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21B661E49035B00451DFB /* Assets.xcassets */; };
+		3FE21B6A1E49035B00451DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21B681E49035B00451DFB /* LaunchScreen.storyboard */; };
+		3FE21B751E49035B00451DFB /* KatanaDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21B741E49035B00451DFB /* KatanaDemoTests.swift */; };
+		3FE21B9F1E49059100451DFB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21B9E1E49059100451DFB /* State.swift */; };
+		3FF1DBA31E5D0142005EC42E /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DBA21E5D0142005EC42E /* RandomViewController.swift */; };
+		6C4E222D0D437AA2F2C04A02 /* Pods_KatanaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3154E5B0F13FD1848CD1E1 /* Pods_KatanaDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE21B711E49035B00451DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FE21B541E49035B00451DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FE21B5B1E49035B00451DFB;
+			remoteInfo = KatanaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C227130878E2D73450B14B /* Pods_KatanaDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3154E5B0F13FD1848CD1E1 /* Pods_KatanaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F51AF7D1E59FC0C003316E9 /* FirstTabNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTabNavigationController.swift; sourceTree = "<group>"; };
+		3F51AF7F1E59FC2D003316E9 /* SecondTabNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabNavigationController.swift; sourceTree = "<group>"; };
+		3FE21B5C1E49035B00451DFB /* KatanaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatanaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE21B5F1E49035B00451DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FE21B661E49035B00451DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FE21B691E49035B00451DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FE21B6B1E49035B00451DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE21B701E49035B00451DFB /* KatanaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatanaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE21B741E49035B00451DFB /* KatanaDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatanaDemoTests.swift; sourceTree = "<group>"; };
+		3FE21B761E49035B00451DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE21B9E1E49059100451DFB /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		3FF1DBA21E5D0142005EC42E /* RandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		4170F14F29EA9A404E6E068A /* Pods-KatanaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaDemo/Pods-KatanaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88C1444529E428D2C97B9978 /* Pods-KatanaDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaDemoTests/Pods-KatanaDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF5495F9BD701BFF6827594 /* Pods-KatanaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaDemo/Pods-KatanaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D14181DB38688B23B1B13633 /* Pods-KatanaDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaDemoTests/Pods-KatanaDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE21B591E49035B00451DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4E222D0D437AA2F2C04A02 /* Pods_KatanaDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE21B6D1E49035B00451DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07DFF50C2A0FDCD130A87B71 /* Pods_KatanaDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE21B531E49035B00451DFB = {
+			isa = PBXGroup;
+			children = (
+				3FE21B5E1E49035B00451DFB /* KatanaDemo */,
+				3FE21B731E49035B00451DFB /* KatanaDemoTests */,
+				3FE21B5D1E49035B00451DFB /* Products */,
+				681C1C015E4F3CBB7D3E8182 /* Pods */,
+				AF5E494A2EE0550D18673510 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE21B5D1E49035B00451DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE21B5C1E49035B00451DFB /* KatanaDemo.app */,
+				3FE21B701E49035B00451DFB /* KatanaDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE21B5E1E49035B00451DFB /* KatanaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3FE21B5F1E49035B00451DFB /* AppDelegate.swift */,
+				3FE21B661E49035B00451DFB /* Assets.xcassets */,
+				3FE21B681E49035B00451DFB /* LaunchScreen.storyboard */,
+				3FE21B6B1E49035B00451DFB /* Info.plist */,
+				3FE21B9E1E49059100451DFB /* State.swift */,
+				3F51AF7D1E59FC0C003316E9 /* FirstTabNavigationController.swift */,
+				3F51AF7F1E59FC2D003316E9 /* SecondTabNavigationController.swift */,
+				3FF1DBA21E5D0142005EC42E /* RandomViewController.swift */,
+			);
+			path = KatanaDemo;
+			sourceTree = "<group>";
+		};
+		3FE21B731E49035B00451DFB /* KatanaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FE21B741E49035B00451DFB /* KatanaDemoTests.swift */,
+				3FE21B761E49035B00451DFB /* Info.plist */,
+			);
+			path = KatanaDemoTests;
+			sourceTree = "<group>";
+		};
+		681C1C015E4F3CBB7D3E8182 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF5495F9BD701BFF6827594 /* Pods-KatanaDemo.debug.xcconfig */,
+				4170F14F29EA9A404E6E068A /* Pods-KatanaDemo.release.xcconfig */,
+				88C1444529E428D2C97B9978 /* Pods-KatanaDemoTests.debug.xcconfig */,
+				D14181DB38688B23B1B13633 /* Pods-KatanaDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF5E494A2EE0550D18673510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3154E5B0F13FD1848CD1E1 /* Pods_KatanaDemo.framework */,
+				04C227130878E2D73450B14B /* Pods_KatanaDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE21B5B1E49035B00451DFB /* KatanaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE21B791E49035B00451DFB /* Build configuration list for PBXNativeTarget "KatanaDemo" */;
+			buildPhases = (
+				E0290B8469419946BBF1BAAA /* [CP] Check Pods Manifest.lock */,
+				3FE21B581E49035B00451DFB /* Sources */,
+				3FE21B591E49035B00451DFB /* Frameworks */,
+				3FE21B5A1E49035B00451DFB /* Resources */,
+				0D6DA9DC18E9A498AB351E03 /* [CP] Embed Pods Frameworks */,
+				6971E0C3F900AAC905C5A53D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KatanaDemo;
+			productName = KatanaDemo;
+			productReference = 3FE21B5C1E49035B00451DFB /* KatanaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FE21B6F1E49035B00451DFB /* KatanaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE21B7C1E49035B00451DFB /* Build configuration list for PBXNativeTarget "KatanaDemoTests" */;
+			buildPhases = (
+				65B4F1B50EDFD00364780EAE /* [CP] Check Pods Manifest.lock */,
+				3FE21B6C1E49035B00451DFB /* Sources */,
+				3FE21B6D1E49035B00451DFB /* Frameworks */,
+				3FE21B6E1E49035B00451DFB /* Resources */,
+				88E911B19664E6990C0F2833 /* [CP] Embed Pods Frameworks */,
+				40B6978ECE15624159D4DCB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FE21B721E49035B00451DFB /* PBXTargetDependency */,
+			);
+			name = KatanaDemoTests;
+			productName = KatanaDemoTests;
+			productReference = 3FE21B701E49035B00451DFB /* KatanaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE21B541E49035B00451DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = raywenderlich;
+				TargetAttributes = {
+					3FE21B5B1E49035B00451DFB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3FE21B6F1E49035B00451DFB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FE21B5B1E49035B00451DFB;
+					};
+				};
+			};
+			buildConfigurationList = 3FE21B571E49035B00451DFB /* Build configuration list for PBXProject "KatanaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FE21B531E49035B00451DFB;
+			productRefGroup = 3FE21B5D1E49035B00451DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE21B5B1E49035B00451DFB /* KatanaDemo */,
+				3FE21B6F1E49035B00451DFB /* KatanaDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE21B5A1E49035B00451DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE21B6A1E49035B00451DFB /* LaunchScreen.storyboard in Resources */,
+				3FE21B671E49035B00451DFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE21B6E1E49035B00451DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D6DA9DC18E9A498AB351E03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaDemo/Pods-KatanaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B6978ECE15624159D4DCB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaDemoTests/Pods-KatanaDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65B4F1B50EDFD00364780EAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6971E0C3F900AAC905C5A53D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaDemo/Pods-KatanaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E911B19664E6990C0F2833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaDemoTests/Pods-KatanaDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0290B8469419946BBF1BAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE21B581E49035B00451DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F51AF801E59FC2D003316E9 /* SecondTabNavigationController.swift in Sources */,
+				3F51AF7E1E59FC0C003316E9 /* FirstTabNavigationController.swift in Sources */,
+				3FF1DBA31E5D0142005EC42E /* RandomViewController.swift in Sources */,
+				3FE21B601E49035B00451DFB /* AppDelegate.swift in Sources */,
+				3FE21B9F1E49059100451DFB /* State.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE21B6C1E49035B00451DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE21B751E49035B00451DFB /* KatanaDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FE21B721E49035B00451DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FE21B5B1E49035B00451DFB /* KatanaDemo */;
+			targetProxy = 3FE21B711E49035B00451DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FE21B681E49035B00451DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE21B691E49035B00451DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE21B771E49035B00451DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FE21B781E49035B00451DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE21B7A1E49035B00451DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF5495F9BD701BFF6827594 /* Pods-KatanaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KatanaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalciurus.KatanaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FE21B7B1E49035B00451DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4170F14F29EA9A404E6E068A /* Pods-KatanaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KatanaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michalciurus.KatanaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FE21B7D1E49035B00451DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C1444529E428D2C97B9978 /* Pods-KatanaDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KatanaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.KatanaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatanaDemo.app/KatanaDemo";
+			};
+			name = Debug;
+		};
+		3FE21B7E1E49035B00451DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14181DB38688B23B1B13633 /* Pods-KatanaDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KatanaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.KatanaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KatanaDemo.app/KatanaDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE21B571E49035B00451DFB /* Build configuration list for PBXProject "KatanaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE21B771E49035B00451DFB /* Debug */,
+				3FE21B781E49035B00451DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE21B791E49035B00451DFB /* Build configuration list for PBXNativeTarget "KatanaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE21B7A1E49035B00451DFB /* Debug */,
+				3FE21B7B1E49035B00451DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE21B7C1E49035B00451DFB /* Build configuration list for PBXNativeTarget "KatanaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE21B7D1E49035B00451DFB /* Debug */,
+				3FE21B7E1E49035B00451DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE21B541E49035B00451DFB /* Project object */;
+}

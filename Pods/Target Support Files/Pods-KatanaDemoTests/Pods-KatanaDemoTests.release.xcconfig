@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Katana" "$PODS_CONFIGURATION_BUILD_DIR/KatanaElements" "$PODS_CONFIGURATION_BUILD_DIR/KatanaRouter"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/Katana/Katana.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KatanaElements/KatanaElements.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KatanaRouter/KatanaRouter.framework/Headers"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

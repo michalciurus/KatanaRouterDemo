@@ -1,0 +1,6 @@
+framework module Pods_KatanaDemo {
+  umbrella header "Pods-KatanaDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
